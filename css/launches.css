@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "audiowide";
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: var(--background-blue);
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+:root {
+  --main-blue-color: #0476d9;
+  --background-blue: #101215;
+  --contrast-color: #f24f13;
+}
+
+.header {
+  background-image: url(../images/moon-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 10px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-link a:hover {
+  border-bottom: 1px solid;
+}
+
+#launches {
+  border-bottom: 1px solid;
+}
+
+.logo-container {
+  display: flex;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  place-content: center;
+}
+
+.content-container {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  max-width: 350px;
+}
+
+.content h1 {
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+
+.content p {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.count {
+  display: flex;
+  justify-content: space-around;
+}
+
+.countdown-content {
+  text-align: center;
+}
+
+.countdown-content h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.countdown span {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.countdown p {
+  font-size: 12px;
+}
+
+.countdown {
+  padding: 0 10px;
+}
+
+.count {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+section {
+  background: url(../images/mobile-bg.jpg);
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.main-container h2 {
+  padding: 10px 40px;
+  background: rgb(40, 40, 40);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.card {
+  background: white;
+  max-width: 350px;
+  color: black;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.headers {
+  padding-bottom: 5px;
+}
+
+.fact {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.patch {
+  margin-bottom: 20px;
+}
+
+.patch img {
+  max-width: 190px;
+}
+
+.upcoming-container,
+.past-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: rgb(69, 68, 68, 0.9);
+  padding: 0 20px;
+}
+
+.upcoming-container {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(17, 22, 36);
+  padding: 20px;
+}
+
+.top-link {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(12, 12, 12);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.top-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.sitemap {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sitemap h3 {
+  font-size: 18px;
+}
+
+.sitemap ul {
+  list-style: none;
+}
+
+.sitemap li {
+  padding: 10px 0;
+}
+
+.sitemap a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.moreInfo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.moreInfo h3 {
+  font-size: 18px;
+}
+
+.moreInfo ul {
+  list-style: none;
+}
+
+.moreInfo li {
+  padding: 10px 0;
+}
+
+.moreInfo a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.soMe {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.soMe img {
+  width: 30px;
+}
+
+.copyright p {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 800px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .soMe {
+    flex-direction: column;
+  }
+}

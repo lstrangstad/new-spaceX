@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="This is the contact page for my spaceX microsite. And you will find information about the spaceX company, contact form and map location." />
+  <title>Contact</title>
+  <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+  <header id="top" class="header">
+    <nav class="navbar">
+      <div class="logo-container">
+        <img id="logo" src="./images/SpaceX_logo.svg" alt="SpaceX Logo">
+      </div>
+      <ul class="main-nav">
+        <li class="nav-link"><a id="home" href="./index.html">Home</a></li>
+        <li class="nav-link"><a id="launches" href="./launches.html">Launches</a></li>
+        <li class="nav-link"><a id="history" href="./history.html">History</a></li>
+        <li class="nav-link"><a id="contact" href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content-container">
+      <div class="content">
+        <h1>Contact</h1>
+        <p>Send questions or a message if you want to know more about SpaceX and it's missions.</p>
+
+      </div>
+      <div class="countdown-content">
+        <h2>Countdown until next launch</h2>
+        <div class="count">
+          <div class="countdown">
+            <span id="days">00</span>
+            <p>DAYS</p>
+          </div>
+          <div class="countdown">
+            <span id="hours">00</span>
+            <p>HOURS</p>
+          </div>
+          <div class="countdown">
+            <span id="minutes">00</span>
+            <p>MINUTES</p>
+          </div>
+          <div class="countdown">
+            <span id="seconds">00</span>
+            <p>SECONDS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main-container">
+    <div class="info-container">
+      <div class="txt-info">
+        <h2>Info</h2>
+        <div class="left-info">
+          <p class="headers">Founder:</p>
+          <p class="fact">Elon Musk</p>
+          <p class="headers">Founded:</p>
+          <p class="fact">2002</p>
+          <p class="headers">Employees:</p>
+          <p class="fact">7000</p>
+          <p class="headers">Launch sites:</p>
+          <p class="fact">3</p>
+        </div>
+        <div class="right-info">
+          <p class="headers">Address:</p>
+          <p class="fact">Rocket Road, Hawthorne, California</p>
+          <p class="headers">Links:</p>
+          <p class="fact"><a href="https://www.spacex.com/">https://www.spacex.com/</a></p>
+          <p class="fact"><a href="https://www.flickr.com/photos/spacex/">https://www.flickr.com/photos/spacex/</a>
+          </p>
+          <p class="fact"><a href="https://twitter.com/SpaceX">https://twitter.com/SpaceX</a></p>
+          <p class="fact"><a href="https://twitter.com/elonmusk">https://twitter.com/elonmusk</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="form">
+        <form action="#">
+          <h2>Contact form</h2>
+          <div class="inner-form">
+            <div class="left-contact">
+              <label for="fullname">Full name</label>
+              <div class="error-msg" id="fullname-error">Please enter full name</div>
+              <input type="text" name="fullname" id="fullname">
+              <label for="email">Email</label>
+              <div class="error-msg" id="email-error">Please enter email</div>
+              <div class="error-msg" id="valid-email-error">Please enter valid email</div>
+              <input type="text" name="mail" id="email">
+              <label for="subject">Subject</label>
+              <div class="error-msg" id="subject-error">Please enter a subject</div>
+              <input type="text" name="subject" id="subject">
+            </div>
+            <div class="right-contact">
+              <label for="msg">Message</label>
+              <div class="error-msg" id="message-error">The message must be at least 10 characters.</div>
+              <textarea name="message" id="msg" cols="30" rows="10" placeholder="Write your message..."></textarea>
+              <button type="submit">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="web-bottom">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13243.673719022687!2d-118.3278276!3d33.9174989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb92dd62393cb973!2sSpaceX%20Tooling!5e0!3m2!1sen!2sno!4v1590064674227!5m2!1sen!2sno"
+          width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="top-link">
+    <a href="#top">
+      Back to top
+    </a>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="sitemap">
+        <h3>SITEMAP:</h3>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./launches.html">Launch</a></li>
+          <li><a href="./history.html">History</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="moreInfo">
+        <h3>MORE INFO:</h3>
+        <ul>
+          <li><a href="https://www.spacex.com">SpaceX</a></li>
+          <li><a href="https://www.nasa.gov/">NASA</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/SpaceX">Wikipedia</a></li>
+          <li><a href="https://www.reddit.com/r/spacex/">Reddit</a></li>
+        </ul>
+      </div>
+      <div class="soMe">
+        <a href="https://www.youtube.com/spacex"><img class="icons" src="./icons/youtube.svg" alt="YouTube"></a>
+        <a href="https://www.instagram.com/spacex/"><img class="icons" src="./icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://twitter.com/spacex"><img class="icons" src="./icons/twitter.svg" alt="Twitter"></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2020 Linus Strangstad - All rights reserved </p>
+    </div>
+  </footer>
+  <script src="./js/contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="This is the launches page for my spaceX microsite. And you will find information about upcoming and past launches." />
+  <title>Launches</title>
+  <link rel="stylesheet" href="./css/launches.css">
+</head>
+
+<body>
+  <header id="top" class="header">
+    <nav class="navbar">
+      <div class="logo-container">
+        <img id="logo" src="./images/SpaceX_logo.svg" alt="SpaceX Logo">
+      </div>
+      <ul class="main-nav">
+        <li class="nav-link"><a id="home" href="./index.html">Home</a></li>
+        <li class="nav-link"><a id="launches" href="./launches.html">Launches</a></li>
+        <li class="nav-link"><a id="history" href="./history.html">History</a></li>
+        <li class="nav-link"><a id="contact" href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content-container">
+      <div class="content">
+        <h1>Launches</h1>
+        <p>Automatically updated launch schedule for previous and upcoming SpaceX launches.</p>
+      </div>
+      <div class="countdown-content">
+        <h2>Countdown until next launch</h2>
+        <div class="count">
+          <div class="countdown">
+            <span id="days">00</span>
+            <p>DAYS</p>
+          </div>
+          <div class="countdown">
+            <span id="hours">00</span>
+            <p>HOURS</p>
+          </div>
+          <div class="countdown">
+            <span id="minutes">00</span>
+            <p>MINUTES</p>
+          </div>
+          <div class="countdown">
+            <span id="seconds">00</span>
+            <p>SECONDS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="main-container">
+      <div class="upcoming">
+        <h2>15 UPCOMING LAUNCHES</h2>
+        <div class="upcoming-container">
+          <div class="card" id="next-info">
+            <div class="patch">
+              <img class="patch-img" src="#" alt="Mission patch">
+            </div>
+            <div class="card-info">
+              <p class="headers">Mission name:</p>
+              <p class="fact"></p>
+              <p class="headers">Launch date:</p>
+              <p class="fact"></p>
+              <p class="headers">Rocket name:</p>
+              <p class="fact"></p>
+              <p class="headers">Nationality:</p>
+              <p class="fact"></p>
+              <p class="headers" id="manufacturer">Manufacturer:</p>
+              <p class="fact"></p>
+              <p class="headers">Payload type:</p>
+              <p class="fact"></p>
+              <p class="headers">Orbit:</p>
+              <p class="fact"></p>
+              <p class="headers">Launch site:</p>
+              <p class="fact"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="past">
+        <h2>15 PAST LAUNCHES</h2>
+        <div class="past-container">
+          <div class="card" id="past-info">
+            <div class="patch">
+              <img class="patch-img" src="#" alt="Mission patch">
+            </div>
+            <div class="card-info">
+              <p>Mission name:</p>
+              <p>Launch date:</p>
+              <p>Rocket name:</p>
+              <p>Nationality:</p>
+              <p>Manufacturer:</p>
+              <p>Payload type:</p>
+              <p>Orbit:</p>
+              <p>Launch site:</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <div class="top-link">
+    <a href="#top">
+      Back to top
+    </a>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="sitemap">
+        <h3>SITEMAP:</h3>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">Launch</a></li>
+          <li><a href="./history.html">History</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="moreInfo">
+        <h3>MORE INFO:</h3>
+        <ul>
+          <li><a href="https://www.spacex.com">SpaceX</a></li>
+          <li><a href="https://www.nasa.gov/">NASA</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/SpaceX">Wikipedia</a></li>
+          <li><a href="https://www.reddit.com/r/spacex/">Reddit</a></li>
+        </ul>
+      </div>
+      <div class="soMe">
+        <a href="https://www.youtube.com/spacex"><img class="icons" src="./icons/youtube.svg" alt="YouTube"></a>
+        <a href="https://www.instagram.com/spacex/"><img class="icons" src="./icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://twitter.com/spacex"><img class="icons" src="./icons/twitter.svg" alt="Twitter"></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2020 Linus Strangstad - All rights reserved </p>
+    </div>
+  </footer>
+  <script src="./js/launches.js"></script>
+</body>
+
+</html>
